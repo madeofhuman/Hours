@@ -1,0 +1,6 @@
+.outer
+  .container
+    %h1= @category.name
+    %hr/
+    %ul.categories-overview= render partial: "projects/project", locals: { projects: @projects }
+    %hr/
